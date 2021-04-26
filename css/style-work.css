@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.block-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.block-col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header-nav-link {
+    font-size: 12px;
+    color: #282828;
+    text-transform: uppercase;
+    margin-left: 32px;
+    font-weight: 500;
+}
+
+.header-nav-link:hover {
+    color: #0b6e31;
+    text-decoration: none;
+}
+
+header .header-logo {
+    font-size: 50px;
+    color: #007d2f;
+}
+.block__designer{
+    background: #007d2f;
+    padding: 112px 0;
+}
+.block__designer h1{
+    font-size:30.2px ;
+    color:#171717 ;
+}
+.block__designer p{
+    font-size:17.29px ;
+    color:#fefefe ;
+    max-width: 493px;
+    margin: 0 auto;
+    padding-top: 35px;
+    
+}
+.work .work-img img{
+    width: 100%;
+}
+.work .work-img{
+    position: relative;
+}
+.work .work-img:hover .work-eyes{
+    opacity: 1;
+    text-decoration: none;
+}
+.work .work-img .work-eyes{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(31, 128, 62, 0.637);
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: #fff;
+    opacity: 0;
+    transition: 0.5s;
+}
+footer{
+    background: #141414;
+    padding: 99px 0;
+}
+.block-footer h4{
+   font-size: 18px;
+   color:#ffffff ; 
+}
+.block-footer p{
+   font-size: 15px;
+   color:#bcbcbc ; 
+   max-width: 270px;
+   padding-top: 25px;
+}
+
+.block-gmail h4{
+   font-size: 15px;
+   color:#bcbcbc ; 
+}
+.block-gmail p{
+   font-size: 15px;
+   color:#bcbcbc ; 
+}
+.block-internet h4{
+    font-size:15px ;
+    color:#bcbcbc ;
+}
+.block-interneta h4{
+    font-size:15px ;
+    color:#bcbcbc ;
+   
+}
+.block-internete h4{
+    font-size:15px ;
+    color:#bcbcbc ;
+   
+}
+
+/* media start */
+@media (max-width: 991px) {
+    header .navbar-nav {
+        background: #007d30be;
+        box-shadow: 0 0 15px 20px #b3b3b3;
+        padding: 50px;
+    }
+
+    .skills p {
+        margin-top: 25px;
+    }
+
+    .skills p::::after {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 362px){
+    .block__designer h1{
+        font-size:25px ;
+        color:#171717 ;
+    }
+    .block__designer p{
+        font-size:14px ;
+        color:#fefefe ;
+        max-width: 493px;
+        margin: 0 auto;
+        padding-top: 35px;
+        
+    }
+    
+}
